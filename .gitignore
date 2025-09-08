@@ -1,0 +1,53 @@
+﻿# ---- Python / Build / Test caches ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.hypothesis/
+.cache/
+
+# ---- Ambientes virtuais ----
+.venv/
+venv/
+env/
+
+# ---- Config / Secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- IDE / SO ----
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# ---- WebDriver / Selenium ----
+.wdm/
+webdriver/
+chromedriver*
+geckodriver*
+*.log
+
+# ---- Relatórios / Artefatos ----
+report_*.html
+reports/
+allure-results/
+allure-report/
+screenshots/
+
+# ---- Outros ----
+*.tmp
+*.bak
